@@ -18,6 +18,9 @@ phases:   # 빌드 단계
 artifacts:
   files:
     - target/springbootApp.jar  # 업로드 할 파일들
+    - scripts/server_start.sh
+    - scripts/server_stop.sh
+    - appspec.yml
   discard-paths: yes # 파일명 기준으로만 업로드
 cache:
   paths:
