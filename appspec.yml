@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+
+files:
+   - source: /springbootApp.jar
+     destination: /home/ec2-user/
+
+
+file_exists_behavior: OVERWRITE
